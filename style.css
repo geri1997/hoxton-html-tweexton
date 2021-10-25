@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Irish Grover', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+body{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: #1c4d87;
+    font-family: 'Irish Grover', cursive;   
+     display: grid;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+   place-content: center;
+}
+h2{
+    color: #1e4e88;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    justify-items: center;
+
+}
+img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+main section.popular-tweet{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    border: 1px solid #a1c8fb;
+    padding: 10px;
+    margin: 10px 0px;
+    margin-right: 30px;
+
+    
+}
+main section.popular-tweet p{
+    padding: 5px;
+    font-style: italic;
+    
+    
+}
+
+.meta{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    gap: 5px;
+}
+.author-name{
+    
+    
+    /* margin-top: 10px; */
+    color: #174a84;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
+.author-handle{
+    color: #174a8493;
+   
+}
+
+.time{
+    display: grid;
+    justify-content: end;
+    margin-top: 10px;
+    color: #88a2bf;
+}
+
+#trending-tweet .author-name{
+    color: white;
+}
+
+#trending-tweet .author-handle{
+    color: rgba(255, 255, 255, 0.363);
+}
+
+
+#popular .popular-tweet:nth-of-type(1){
+    background-color: rgba(255, 0, 0, 0.411);
+}
+
+#popular .popular-tweet:nth-of-type(2){
+    background-color: rgba(25, 0, 255, 0.411);
+}
+#popular .popular-tweet:nth-of-type(2) .time{
+color: rgba(255, 255, 255, 0.582);
+}
+
+#popular .popular-tweet:nth-of-type(3){
+    background-color: rgba(0, 102, 255, 0.411);
+}
+#popular .popular-tweet:nth-of-type(3) .time{
+    color: rgba(255, 255, 255, 0.582);
+}
+
+#trending .popular-tweet:nth-of-type(1){
+    background-color: rgba(255, 217, 0, 0.418);
+}
+
+#trending .popular-tweet:nth-of-type(1) .author-name {
+    color: rgba(8, 8, 3, 0.719);
+}
+
+#trending .popular-tweet:nth-of-type(1) .author-handle {
+    color: rgba(8, 8, 3, 0.418);
+}
+
+#trending .popular-tweet:nth-of-type(2){
+    background-color: rgba(0, 255, 106, 0.418);
+}
+
+#trending .popular-tweet:nth-of-type(2) .author-name {
+    color: rgba(8, 8, 3, 0.719);
+}
+
+#trending .popular-tweet:nth-of-type(2) .author-handle {
+    color: rgba(8, 8, 3, 0.418);
+}
+
+#upcoming .popular-tweet:nth-of-type(1){
+    background-color: rgba(195, 0, 255, 0.411);
+}
+
+#upcoming .popular-tweet:nth-of-type(2){
+    background-color: rgba(190, 109, 42, 0.411);
+}
+
