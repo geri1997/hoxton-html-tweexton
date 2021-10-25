@@ -29,7 +29,7 @@ h2{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));;
     padding: 50px;
     justify-items: center;
 
@@ -143,3 +143,17 @@ color: rgba(255, 255, 255, 0.582);
     background-color: rgba(190, 109, 42, 0.411);
 }
 
+
+#upcoming #trending-tweet {
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+}
