@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Irish Grover', cursive;
+    /* font-family: 'Irish Grover', cursive; */
 }
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap'); */
 body{
     display: grid;
     grid-template-rows: 50px 1fr;
@@ -14,7 +14,7 @@ body{
 
 header {
     background-color: #1c4d87;
-    font-family: 'Irish Grover', cursive;   
+    /* font-family: 'Irish Grover', cursive;    */
      display: grid;
     color: white;
     font-size: 20px;
